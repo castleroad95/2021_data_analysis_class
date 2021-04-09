@@ -7,6 +7,16 @@ public class stringBuffer {
         System.out.println(sb.toString());
 
 
-        
+        String temp="";
+        temp+="hello";
+        temp+=" ";
+        temp+="dive to java";
+        System.out.println(temp);
+
+
+        sb.insert(0,"i'm first time");
+        System.out.println(sb);
+
+        System.out.println(sb.substring(0,5));
     }
 }
